@@ -98,3 +98,16 @@ file.write(data)
 file.close()
 client.close()
 -------------------------------------------------------------------------------------------------------
+Exp 5 DHCP
+# enable
+# configure terminal
+# interface gigabitEthernet 0/0/0 /fastEthernet 0/0
+# no Shutdown
+# ip address 192.168.1.1 255.255.255.0
+# ex
+# ip dhcp pool abc
+# network 192.168.1.0 255.255.255.0
+# default - router 192.168.1.1 
+# dns - server 8.8.8.8
+# ex
+
